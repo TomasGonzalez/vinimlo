@@ -1,53 +1,64 @@
 # Galaxy Profile README Configuration
 # Fork this repo and customize this file to make it your own!
 
-username: vinimlo
+username: TomasGonzalez
 
 profile:
-  name: "Vinícius Melo"
-  tagline: "AI Engineer"
-  company: "Rumo Tech"
-  location: "Brazil"
+  name: "Tomas Gonzalez"
+  tagline: "Senior Full Stack Engineer"
+  company: "Autarc"
+  location: "Berlin"
   bio: |
-    Building robust systems and crafting elegant solutions.
-  philosophy: 'Solving one problem at a time, with code and creativity.'
+    I just find pleasure in understanding how things work.
+  philosophy: 'You don’t need to suffer to prove you deserve what you’re building. You can make it from peace. From love. From play. And it will still be real.'
 
 social:
-  email: "vinicius@rumotech.com.br"
-  linkedin: "vinimlo"
-  website: ""
+  email: "tomasgp14@gmail.com"
+  linkedin: "tomas-gonzalez-8784a2133"
+  website: "https://tomasgonzalez.github.io/3d-portfolio/"
 
 # Galaxy arms represent your core focus areas
 # Each arm spirals out from the center with its own color and tech items
 galaxy_arms:
-  - name: "Web & Cloud"
+  - name: "Web & 3D"
     color: "dendrite_violet"
     items:
       - "TypeScript"
+      - "JavaScript"
       - "React"
-      - "Flask"
-      - "AWS / Oracle"
+      - "Next.js"
+      - "Vite"
+      - "Three.js"
+      - "react-three-fiber"
+      - "@react-three/drei"
+
   - name: "AI & Data"
     color: "synapse_cyan"
     items:
       - "Python"
-      - "PyTorch"
-      - "MySQL"
-  - name: "Automation"
+      - "MediaPipe"
+      - "TensorFlow.js"
+      - "Keras (hdf5)"
+      - "PostgreSQL"
+      - "SQLite / local-first (ElectricSQL)"
+
+  - name: "Automation & Tooling"
     color: "axon_amber"
     items:
       - "GitHub Actions"
       - "Linux"
       - "Docker"
-
+      - "Git"
+      - "Turborepo"
+      - "VSCode + Vim"
 # Featured projects shown as constellation stars
 projects:
-  - repo: "vinimlo/tabAla"
+  - repo: "TomasGonzalez/3d-portfolio"
     arm: 0
-    description: "Salve abas. Organize em coleções. Processe quando quiser."
-  - repo: "vinimlo/gaeia"
+    description: "It is a highly customizable dev portfolio template that features astonishing 3D graphics by taking advantage of webGL."
+  - repo: "TomasGonzalez/hand-gesture-recognition-using-mediapipe-in-react"
     arm: 1
-    description: "Grupo Autônomo de Estudos em IA"
+    description: ""
 
 # Theme color overrides (optional — defaults to deep space palette)
 theme:
